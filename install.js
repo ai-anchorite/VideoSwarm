@@ -17,6 +17,7 @@ module.exports = {
         path: "app",
         message: [
           "npm install",
+          "npm run electron:build"
         ]
       }
     },
