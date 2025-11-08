@@ -20,5 +20,12 @@ module.exports = {
         ]
       }
     },
+    
+    {
+      method: "notify",
+      params: {
+        html: "Click the 'start' tab to get started!"
+      }
+    }
   ]
 }
