@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "3.7",
   title: "Videoswarm",
-  description: "",
+  description: "A mass video player for easy browsing of large video datasets",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/dist")
